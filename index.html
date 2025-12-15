@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тойға шақыру</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section class="hero">
+    <div class="card">
+        <img src="assets/couple.jpg" class="avatar">
+
+        <h1>Үйлену тойға шақыру</h1>
+
+        <p>Құрметті қонақтар!</p>
+        <p>Сіздерді ұлымыз</p>
+        <h2>Санжар</h2>
+        <p>мен келініміз</p>
+        <h2>Жанна</h2>
+
+        <p class="text">
+            үйлену тойына арналған салтанатты ақ
+            дастарханымыздың қадірлі қонағы болуға шақырамыз!
+        </p>
+
+        <div class="date-box">
+            <span>Тамыз</span>
+            <strong>15</strong>
+            <span>2025 • 19:00</span>
+        </div>
+
+            <p class="place">
+                Шымкент қаласы, «ЕВРАЗИЯ» тойханасы
+            </p>
+    </div>
+</section>
+
+<section class="info">
+    <h3>Той жайлы</h3>
+
+    <p><strong>Той иелері:</strong> Бақтыбай, Ләйла</p>
+    <p><strong>Басталуы:</strong> 28.12.2025 / 19:00</p>
+
+    <div id="timer" class="timer"></div>
+
+    <a
+        class="map-btn"
+        href="https://2gis.kz/shymkent/firm/70000001026160148?m=69.605935%2C42.298051%2F19.14"
+        target="_blank"
+        >
+        📍 2GIS-тен қарау
+    </a>
+</section>
+
+<section class="event-date">
+    <div class="date-frame">
+        <div class="date-top">ТОЙ КҮНІ</div>
+
+        <div class="date-center">
+            <span class="month">желтоксан</span>
+            <span class="day">28</span>
+            <span class="year">2025</span>
+        </div>
+
+        <div class="date-bottom">
+            <span>Сағат</span>
+            <strong>19:00</strong>
+        </div>
+    </div>
+</section>
+
+<button class="music-btn" onclick="toggleMusic()">🎵 Әуен қосу</button>
+<audio id="music" src="assets/music.mp3" loop></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
